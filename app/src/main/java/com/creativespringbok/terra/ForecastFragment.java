@@ -179,7 +179,6 @@ public class ForecastFragment extends Fragment {
             // Since this data is also sent in-order and the first day is always the
             // current day, we're going to take advantage of that to get a nice
             // normalized UTC date for all of our weather.
-
             Time dayTime = new Time();
             dayTime.setToNow();
 
@@ -252,7 +251,7 @@ public class ForecastFragment extends Fragment {
             String format = "json";
             String units = "metric";
             int numDays = 7;
-            String API_KEY = " -- YOUR OWM API KEY HERE --";
+            String API_KEY = "-- YOUR OWM API KEY HERE --";
             try {
                 // Construct the URL for the OpenWeatherMap query
                 // Possible parameters are available at OWM's forecast API page, at
