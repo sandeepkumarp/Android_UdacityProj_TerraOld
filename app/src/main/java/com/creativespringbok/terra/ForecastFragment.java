@@ -251,7 +251,7 @@ public class ForecastFragment extends Fragment {
             String format = "json";
             String units = "metric";
             int numDays = 7;
-            String API_KEY = "-- YOUR OWM API KEY HERE --";
+            String API_KEY = "you_api_key_here";
             try {
                 // Construct the URL for the OpenWeatherMap query
                 // Possible parameters are available at OWM's forecast API page, at
